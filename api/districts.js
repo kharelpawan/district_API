@@ -91,4 +91,6 @@ const districts = [
   { id: 77, name_en: 'Kanchanpur', name_np: 'कञ्चनपुर', province: 'Sudurpashchim Province' }
 ];
 
-module.exports = districts;
+export default function handler(req, res) {
+  res.status(200).json(districts);
+}

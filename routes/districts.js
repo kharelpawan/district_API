@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const districts = require('../data/districts');
+const districts = require('../api/districts');
 
 // Route to get all districts
 router.get('/', (req, res) => {
